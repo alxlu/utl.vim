@@ -87,8 +87,8 @@ let utl__file_rc =    expand("<sfile>")	    " Do not remove this line
 	endif
 	" else if MacOS
 	" ??
-	"let g:utl_cfg_hdl_scm_http_system = "silent !open -a Safari '%u#%f'"
-	"
+	let g:utl_cfg_hdl_scm_http_system = "silent !open '%u#%f'"
+	
 	"}
 
     endif
